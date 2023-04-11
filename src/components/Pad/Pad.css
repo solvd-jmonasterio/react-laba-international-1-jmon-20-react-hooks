@@ -1,0 +1,54 @@
+.pad-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 470px;
+}
+
+.btn {
+  background: #2e2f3e;
+  border: 0.5px solid #242530;
+
+  text-align: center;
+  font-size: 24px;
+  color: #ffff;
+
+  cursor: pointer;
+}
+
+.btn:active {
+  background: #363746;
+}
+
+.btn--light {
+  background: #363746;
+
+  color: #ffbb00;
+}
+
+.btn--light:active {
+  background: #2e2f3e;
+}
+
+.btn-clear {
+  border-radius: 30px 0px 0px 0px;
+
+  color: #ffff;
+}
+
+.btn-delete {
+  border-radius: 0px 30px 0px 0px;
+}
+
+.btn-equal {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 5;
+
+  background: #ffbb00;
+}
+
+.btn-equal:active {
+  background: #c29415;
+}
